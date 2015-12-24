@@ -1,0 +1,10 @@
+{
+    entry = {
+	bundle = TwitPref;
+	cell = PSLinkCell;
+	detail = TwitPrefListController;
+	icon = TwitPref.png;
+	isController = 1;
+	label = TwitPref;
+    };
+}

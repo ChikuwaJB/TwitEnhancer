@@ -1,0 +1,10 @@
+Package: com.index5.twitenhancer
+Name: TwitEnhancer
+Depends: mobilesubstrate
+Architecture: iphoneos-arm
+Description: An awesome MobileSubstrate tweak!
+Maintainer: index5
+Author: index5
+Section: Tweaks
+Version: 0.0.1-20
+Installed-Size: 200

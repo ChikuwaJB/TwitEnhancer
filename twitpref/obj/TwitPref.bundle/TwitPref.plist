@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>items</key>
+	<array>
+		<dict>
+			<key>cell</key>
+			<string>PSGroupCell</string>
+			<key>label</key>
+			<string>Twitter機能アップ！</string>
+		</dict>
+		<dict>
+			<key>cell</key>
+			<string>PSSwitchCell</string>
+			<key>default</key>
+			<true/>
+			<key>defaults</key>
+			<string>com.index5.TwitPref</string>
+			<key>key</key>
+			<string>isEmojiFavoritesEnabled</string>
+			<key>label</key>
+			<string>絵文字でふぁぼできるよ！</string>
+		</dict>
+		<dict>
+			<key>cell</key>
+			<string>PSSwitchCell</string>
+			<key>default</key>
+			<true/>
+			<key>defaults</key>
+			<string>com.index5.TwitPref</string>
+			<key>key</key>
+			<string>isJapanNewsV2Enabled</string>
+			<key>label</key>
+			<string>ニュースのランキングがでるよ！</string>
+		</dict>
+	</array>
+	<key>title</key>
+	<string>TwitPref</string>
+</dict>
+</plist>
