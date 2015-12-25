@@ -1,10 +1,9 @@
 #define SettingsPath @"/var/mobile/Library/Preferences/com.index5.TwitPref.plist"
-
-#define TisJapanNewsV2Enabled [[[NSDictionary dictionaryWithContentsOfFile: SettingsPath] objectForKey:@"isJapanNewsV2Enabled"] boolValue]
+static NSDictionary *settings;
 
 %hook TFNTwitterAccount
 	-(bool) isEmojiFavoritesEnabled {
-		if([[NSDictionary dictionaryWithContentsOfFile: SettingsPath] objectForKey:@"isEmojiFavoritesEnabled"] ? [[[NSDictionary dictionaryWithContentsOfFile: SettingsPath] objectForKey:@"isEmojiFavoritesEnabled"] boolValue] : YES){
+		if([settings objectForKey:@"isEmojiFavoritesEnabled"] ? [settings objectForKey:@"isEmojiFavoritesEnabled"] boolValue] : YES){
 			return TRUE;
 		} else {
 			return FALSE;
@@ -12,3 +11,6 @@
 	}
 %end
 
+%ctor{
+settings=[NSDictionary dictionaryWithContentsOfFile:SettingsPath];
+}
