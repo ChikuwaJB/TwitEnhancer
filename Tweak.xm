@@ -3,7 +3,7 @@ static NSDictionary *settings;
 
 %hook TFNTwitterAccount
 	-(bool) isEmojiFavoritesEnabled {
-		if([settings objectForKey:@"isEmojiFavoritesEnabled"] ? [settings objectForKey:@"isEmojiFavoritesEnabled"] boolValue] : YES){
+		if([settings objectForKey:@"isEmojiFavoritesEnabled"] ? [[settings objectForKey:@"isEmojiFavoritesEnabled"] boolValue] : YES){
 			return TRUE;
 		} else {
 			return FALSE;
