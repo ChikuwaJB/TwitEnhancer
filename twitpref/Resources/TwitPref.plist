@@ -22,7 +22,7 @@
 			<key>label</key>
 			<string>絵文字でふぁぼできるよ！</string>
 		</dict>
-        <dict>
+        	<dict>
 			<key>cell</key>
 			<string>PSGroupCell</string>
 			<key>label</key>
@@ -40,19 +40,19 @@
 			<key>label</key>
 			<string>ニュースの有効化</string>
 		</dict>
-        <dict>
-            <key>cell<key>
-            <string>PSSwitchCell</string>
-            <key>default</key>
-            <true/>
-            <key>defaults</key>
-            <string>com.index5.TwitPref</string>
-            <key>key</key>
-            <string>isJapanNewsV2RankingEnabled</string>
-            <key>label</key>
-            <string>ニュースのランキングが出るよ！</string>
-        </dict>
-        <dict>
+        	<dict>
+            		<key>cell<key>
+            		<string>PSSwitchCell</string>
+            		<key>default</key>
+            		<true/>
+            		<key>defaults</key>
+            		<string>com.index5.TwitPref</string>
+            		<key>key</key>
+            		<string>isJapanNewsV2RankingEnabled</string>
+            		<key>label</key>
+            		<string>ニュースのランキングが出るよ！</string>
+        	</dict>
+        	<dict>
 			<key>cell</key>
 			<string>PSSwitchCell</string>
 			<key>default</key>
@@ -64,19 +64,19 @@
 			<key>label</key>
 			<string>ニュースの有効化</string>
 		</dict>
-        <dict>
-            <key>cell<key>
-            <string>PSSwitchCell</string>
-            <key>default</key>
-            <true/>
-            <key>defaults</key>
-            <string>com.index5.TwitPref</string>
-            <key>key</key>
-            <string>isJapanNewsV2RankingEnabled</string>
-            <key>label</key>
-            <string>ニュースのランキングが出るよ！</string>
-        </dict>
-        <dict>
+        	<dict>
+            		<key>cell<key>
+            		<string>PSSwitchCell</string>
+            		<key>default</key>
+            		<true/>
+            		<key>defaults</key>
+            		<string>com.index5.TwitPref</string>
+            		<key>key</key>
+            		<string>isJapanNewsV2RankingEnabled</string>
+            		<key>label</key>
+            		<string>ニュースのランキングが出るよ！</string>
+        	</dict>
+        	<dict>
 			<key>cell</key>
 			<string>PSSwitchCell</string>
 			<key>default</key>
@@ -88,7 +88,7 @@
 			<key>label</key>
 			<string>ニュースのカテゴリにビジネスを追加</string>
 		</dict>
-        <dict>
+        	<dict>
 			<key>cell</key>
 			<string>PSSwitchCell</string>
 			<key>default</key>
@@ -100,7 +100,7 @@
 			<key>label</key>
 			<string>ニュースのカテゴリに家事を追加</string>
 		</dict>
-        <dict>
+        	<dict>
 			<key>cell</key>
 			<string>PSSwitchCell</string>
 			<key>default</key>
@@ -112,7 +112,7 @@
 			<key>label</key>
 			<string>ニュースのカテゴリに世界のニュースを追加</string>
 		</dict>
-        <dict>
+        	<dict>
 			<key>cell</key>
 			<string>PSSwitchCell</string>
 			<key>default</key>
@@ -124,7 +124,7 @@
 			<key>label</key>
 			<string>ニュースのカテゴリにお笑いを追加</string>
 		</dict>
-        <dict>
+        	<dict>
 			<key>cell</key>
 			<string>PSSwitchCell</string>
 			<key>default</key>
@@ -136,7 +136,7 @@
 			<key>label</key>
 			<string>ニュースのカテゴリにサイエンスを追加</string>
 		</dict>
-        <dict>
+        	<dict>
 			<key>cell</key>
 			<string>PSSwitchCell</string>
 			<key>default</key>
@@ -148,28 +148,28 @@
 			<key>label</key>
 			<string>ニュースのカテゴリにスポーツを追加</string>
 		</dict>
-        <dict>
+        	<dict>
 			<key>cell</key>
 			<string>PSGroupCell</string>
 			<key>label</key>
 			<string>Developers</string>
 		</dict>
-        <dict>
-	       <key>action</key>
-            <string>keilink</string>
-            <key>cell</key>
-            <string>PSButtonCell</string>
-            <key>label</key>
-            <string>@todtiddi Kei's Twitter</string>
-        </dict>        
-        <dict>
-	       <key>action</key>
-            <string>jugemlink</string>
-            <key>cell</key>
-            <string>PSButtonCell</string>
-            <key>label</key>
-            <string>@infvhj Jugem's Twitter #This app's author</string>
-        </dict> 
+        	<dict>
+	       		<key>action</key>
+            		<string>keilink</string>
+            		<key>cell</key>
+            		<string>PSButtonCell</string>
+            		<key>label</key>
+            		<string>@todtiddi Kei's Twitter</string>
+        	</dict>        
+        	<dict>
+	       		<key>action</key>
+            		<string>jugemlink</string>
+            		<key>cell</key>
+            		<string>PSButtonCell</string>
+            		<key>label</key>
+            		<string>@infvhj Jugem's Twitter #This app's author</string>
+        	</dict> 
 	</array>
 	<key>title</key>
 	<string>TwitPref</string>
